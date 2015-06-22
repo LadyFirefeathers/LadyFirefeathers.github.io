@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Phoeniix Heller is a UX Design in Chicago</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="row">
+		<div class= "headline col-md-7">
+			<a href="index.html">
+				<img src= "images/mypersonallogo.jpg" width="150">
+			</a>
+			<a href="punchticket.html">
+				<img src= "images/ticketpunch_ks.jpg" width="150">
+			</a>
+			<a href="intrpid.html">
+				<img src= "images/intrepid_ks.jpg" width="150">
+			</a>
+			<a href="wundr_ly.html">
+				<img src= "images/iPhone6_tester.jpg" width="150">
+			</a>
+		</div>
+
+
+
+		<div class= "headline col-md-5">
+
+			<ul class="nav nav-pills">
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="punchticket.html">TicketPunch</a></li>
+				<li><a href="intrpid.html">Intrepid</a></li>
+				<li><a href="wundr_ly.html">wundr.ly</a></li>
+			</ul>
+
+			<h3> Phoenix Heller, User Experience Designer</h3> 
+			<h5> phoenix@phoenixheller.com  312-282-0374</h5>
+
+		</div>
+	</div>		
+</div>
+<hr>
+<div class="row">
+	<div class= "headline col-md-8 col-md-offset-2">
+		<h2>wundr.ly: UI for an app to test apps</h2>
+		<img src= "images/iPhone6_tester.jpg" width="500">
+		<h3>Team</h3>
+<p><a href="http://https://www.linkedin.com/in/jliuliu">Janice Liu</a></p>
+<p><!--a href="https://www.linkedin.com/"-->Jack Wangelin</p>
+<p><a href="https://www.linkedin.com/in/phoenixheller">Phoenix Heller</a></p>
+
+<h3>Overview</h3>
+<p><a href="https://http://coderexp.com">Coder[EXP]</a> is a company who builds mobile and web applications for startups, entrepreneurs, and enterprise teams. They would like a testing platform to give to their product owners.</p>
+
+<h3>The Problem</h3>
+<p>Coder[EXP] wasn't satisfied with the current applications available. They wanted to have a testing platform of their own that they could hand off to their product owners to provided direct and indirect feedback and a user interface that was straightforward in order to gather the feedback the product owner needed to improve their app.</p>
+
+<h3>Our Challenge</h3>
+<p>-create a tool to show demographics so product owners can filter their tester list</p>
+<p>-create a user interface for product testers</p>
+<p>-create a display for the product owner that shows both direct and indirect feed back</p>
+
+<h3>Initial Research</h3>
+<img src= "images/2015-05-28 17.25.04.jpg" width="500">
+<p>Using the list of current product testing platforms and a few more Jack knew of, we compiled a list of what type of feedback for the product owner each of them offered. We then polled developers to see which ones they preferred, which they found tedious, and why. </p>
+
+<h3>The Key Insight and Choosing the Focus</h3>
+<p>We discovered that time was a big factor in looking at feedback. Most developers wanted easily digestible and visually compiled feedback so they could move on to the improvement of their app. After analyzing our survey results and taking into consideration that we had two weeks to work on this project, we chose to focus on three tools with in the wondr.ly platform: a demographic selector for the product owner, a user interface for the product tester, and a user interface for the product owner to see feedback.</p>
+
+<h3>Persona Development </h3>
+<p>First we created Adam, the product developer, and gave him characteristics of a tech savvy developer who worked for Coder[EXP] and Matt, the tester, who loves any thing new in the tech world. We sent these two personas to our client and received a thumbs up for Matt, however we were off base for Adam. Adam is to be a product owner who brought his idea to Coder[EXP] to develop and upon receiving the build, would also receive a link to wundr.ly so that he (not Coder[EXP]) could send out the app to testers and see the feedback. With this information under our belts we moved forward with Adam being a tech savvy individual who doesn’t know how to code, and loves to come up with app ideas in his spare time.</p>
+
+<p>To weave Adam and Matt together we wrote the following user journey:</p>
+<p>Adam has successfully funded a Kickstarter app idea and comes to Coder[EXP] to have it developed. Upon completion, Adam is handed the build and the link to wundr.ly. He signs up and uploads the app and his list of volunteer testers. Because he has so many testers, Adam uses the demographic selector to narrow his first round of testers. He sends the ones he's chosen an invite e-mail through the wundr.ly platform. This e-mail includes directions on how to use the tester interface, a link to Adam's app, and incentive information.
+Matt receives this e-mail and clicks on the link to use Adam's App. Matt signs in or signs up to wundr.ly and explores Adam's app using the interface to mark things he likes, dislikes, and to write comments.
+A week later, Adam logs into wundr.ly and checks out the feedback page where he can see direct and indirect feedback.</p>
+
+<h3>Who Knows Demographics?</h3>
+<img src= "images/dem_selector.jpg" width="500">
+<p>The demographic selector was the biggest challenge of this project. Questions like; Where do the demographic categories come from? Does the product owner understand how to use demographics? Where in the process can/should the demographic selector be used? came up repeatedly. After many hours of discussion and user testing, we put many of these questions aside for this round of ideation and focused in on the tool itself and how it can add a benefit to the wonder.ly platform.</p>
+<p>Inspiration came from <a href: "http://d3js.org">D3 Data-Driven Documents</a>, an open-source information graphics page. We built on the idea of their <a href: "http://bl.ocks.org/mbostock/4063423"> Sunburst Partition</a>. The center of the graph is the highest percentage demographic in the product owner's list. The next ring out is further demographic details on the center group and the farthest ring is even more detailed categories. As you click on categories, a breadcrumb trail appears stating what demographics have been selected. The product owner is also able to create multiple sets of demographics. wonder.ly then filters the mailing list using these demographics.</p>
+
+<h3>A Thumbs up for the Tester</h3>
+<img src= "images/ui_storyboard.jpg" width="700">
+<p>The goal is to give the tester an intuitive user interface to provide feedback. Familiarity and unobtrusive were our catch words. We wanted to take up as little screen space as possible for wundr.ly so that the focus was on the app being tested. A simple to use pulldown menu with drag-and-drop familiar icons was the perfect fit.</p>
+
+<h3>Direct and Indirect Feedback</h3>
+
+<img src= "images/feedback.jpg" width="700">
+<p>Keeping in mind that product owners don't want to spend hours looking at feedback from testers, we developed heat maps. Each type of feedback has it's own heat map and product owners can also look at them all at once. This gives the product owner a visual way to see direct feedback all in one screen. Specifically, the activity heat map eliminates the need to watch hours of user testing. 
+Indirect feedback such as time spent on page, a like to dislike comparison, and  other analytics can be seen easily through info graphics.</p>
+<h3>Summary</h3>
+<p>wundr.ly is a versatile platform that achieves the goals of giving the product owner a way to choose specific demographics of testers through a colorful visual graph, it gives the tester the ability to use the familiar icons of a thumbs up or down to voice their opinion, and it gives the product owner a time-saving and comprehensive view of feedback from testers.   As an added benefit, wundr.ly can be used at any part in the development process. It can test screen shots, individual parts of an app, as well as a fully functioning app. The product owner can then improve their app for greater success and monetary gain.</p>
+
+	</div>
+</div>
+<hr>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63249602-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</body>
+</html>
